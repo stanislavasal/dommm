@@ -1,0 +1,16 @@
+nav{
+  background: #F9F9F9; /* fone color */
+  width: 300px; /* Ширина блока 300*/
+  position: fixed;
+  top: 20px;
+  left: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  opacity: .1;
+  transition: all .5s ease;
+}
+
+nav: hover {
+  opacity: 1;
+  transition: all .1s ease;
+}
